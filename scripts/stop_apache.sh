@@ -1,2 +1,2 @@
 #!/bin/bash
-service appache2 stop
+service httpd stop
