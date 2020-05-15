@@ -16,3 +16,7 @@ hooks:
     - location: scripts/start_apache.sh
       timeout: 300
       runas: root
+  AmiCreation:
+    - location: scripts/ami-creation.sh
+      timeout: 300
+      runas: root
